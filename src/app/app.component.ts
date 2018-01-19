@@ -145,7 +145,7 @@ export class AppComponent {
     } else {
       const major = Math.floor(version / 100);
       const minor = Math.floor( ( version - (major * 100) )  / 10);
-      return `'^${major}.${minor}.0'`;
+      return `^${major}.${minor}.0`;
     }
   }
 }
